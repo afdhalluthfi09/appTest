@@ -182,8 +182,6 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"halamanLogin","qid":"1","text":"Hal
         
 
 <form class="jotform-form" action="/login" 
-      id="203211029858048" 
-      method="post"
       accept-charset="utf-8" 
       autocomplete="on">
   <div role="main" class="form-all">
@@ -210,7 +208,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"halamanLogin","qid":"1","text":"Hal
         <label class="form-label form-label-top form-label-auto" id="label_3" for="input_3"> Nama </label>
         <div id="cid_3" class="form-input-wide" data-layout="half">
           <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="text" id="input_3" name="q3_nama" data-type="input-textbox" class="form-textbox" style="width:600px" size="600" value="" data-component="textbox" aria-labelledby="label_3 sublabel_input_3" />
+            <input type="text" id="input_3" name="nama" data-type="input-textbox" class="form-textbox" style="width:600px" size="600" value="" data-component="textbox" aria-labelledby="label_3 sublabel_input_3" />
             <label class="form-sub-label" for="input_3" id="sublabel_input_3" style="min-height:13px" aria-hidden="false"> pastikan nama user terisi dengan benar </label>
           </span>
         </div>
@@ -219,7 +217,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"halamanLogin","qid":"1","text":"Hal
         <label class="form-label form-label-top form-label-auto" id="label_4" for="input_4"> Pass </label>
         <div id="cid_4" class="form-input-wide" data-layout="half">
           <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="text" id="input_4" name="q4_pass" data-type="input-textbox" class="form-textbox" style="width:600px" size="600" value="" data-component="textbox" aria-labelledby="label_4 sublabel_input_4" />
+            <input type="password" id="input_4" name="pass" data-type="input-textbox" class="form-textbox" style="width:600px" size="600" value="" data-component="textbox" aria-labelledby="label_4 sublabel_input_4" />
             <label class="form-sub-label" for="input_4" id="sublabel_input_4" style="min-height:13px" aria-hidden="false"> pastikan password yang anda isi terisi dengan benar </label>
           </span>
         </div>
